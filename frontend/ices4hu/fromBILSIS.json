@@ -1,0 +1,351 @@
+{
+    "semesters": [
+        {
+            "name": "Fall 2023",
+            "start_date": "2023-09-01",
+            "end_date": "2024-01-08",
+            "is_active": false
+        },
+        {
+            "name": "Spring 2023",
+            "start_date": "2024-02-01",
+            "end_date": "2024-06-18",
+            "is_active": false
+        },
+        {
+            "name": "Summer 2023",
+            "start_date": "2024-06-21",
+            "end_date": "2024-08-28",
+            "is_active": true
+        }
+    ],
+    "departments": [
+        {
+            "name": "Physics"
+        },
+        {
+            "name": "Statistics"
+        },
+        {
+            "name": "Mathematics"
+        },
+        {
+            "name": "Computer Engineering"
+        },
+        {
+            "name": "Electronic Engineering"
+        }
+    ],
+    "personnel": [
+        {
+            "department_id": 1,
+            "manager_of": null,
+            "username": "ali.taner",
+            "name": "Ali",
+            "surname": "Taner",
+            "email": "ali.taner@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 1,
+            "manager_of": null,
+            "username": "ayse.can",
+            "name": "Ayşe",
+            "surname": "Can",
+            "email": "ayse.can@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 2,
+            "manager_of": 2,
+            "username": "ada.tanik",
+            "name": "Ada",
+            "surname": "Tanık",
+            "email": "ada.tanik@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 3,
+            "manager_of": null,
+            "username": "esengul.otebas",
+            "name": "Esengül",
+            "surname": "Ötebaş",
+            "email": "esengul.otebas@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 3,
+            "manager_of": 3,
+            "username": "mertay.ayman",
+            "name": "Mertay",
+            "surname": "Ayman",
+            "email": "mertay.ayman@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 4,
+            "manager_of": null,
+            "username": "seyda.tokayli",
+            "name": "Şeyda",
+            "surname": "Tokaylı",
+            "email": "seyda.tokayli@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 4,
+            "manager_of": 4,
+            "username": "ganim.tepe",
+            "name": "Ganim",
+            "surname": "Tepe",
+            "email": "ganim.tepe@example.com",
+            "profile_picture_url": null
+        },
+        {
+            "department_id": 5,
+            "manager_of": 5,
+            "username": "batuhan.karakose",
+            "name": "Batuhan",
+            "surname": "Karaköse",
+            "email": "batuhan.karakose@example.com",
+            "profile_picture_url": null
+        }
+    ],
+    "courses": [
+        {
+            "department_id": 1,
+            "name": "Physics 101",
+            "credits": 4
+        },
+        {
+            "department_id": 1,
+            "name": "Physics 102",
+            "credits": 4
+        },
+        {
+            "department_id": 2,
+            "name": "Probability",
+            "credits": 3
+        },
+        {
+            "department_id": 2,
+            "name": "Statistics I",
+            "credits": 4
+        },
+        {
+            "department_id": 3,
+            "name": "Calculus I",
+            "credits": 3
+        },
+        {
+            "department_id": 3,
+            "name": "Calculus II",
+            "credits": 4
+        },
+        {
+            "department_id": 4,
+            "name": "OOP I",
+            "credits": 4
+        },
+        {
+            "department_id": 4,
+            "name": "OOP II",
+            "credits": 4
+        },
+        {
+            "department_id": 5,
+            "name": "Electric Circuits I",
+            "credits": 3
+        },
+        {
+            "department_id": 5,
+            "name": "Electric Circuits II",
+            "credits": 4
+        }
+    ],
+    "sections": [
+        {
+            "semester_id": 3,
+            "course_id": 1,
+            "instructor_id": 1,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 2,
+            "instructor_id": 2,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 3,
+            "instructor_id": 3,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 4,
+            "instructor_id": 3,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 5,
+            "instructor_id": 4,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 6,
+            "instructor_id": 5,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 7,
+            "instructor_id": 6,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 8,
+            "instructor_id": 7,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 9,
+            "instructor_id": 8,
+            "section_no": 1
+        },
+        {
+            "semester_id": 3,
+            "course_id": 10,
+            "instructor_id": 8,
+            "section_no": 1
+        }
+    ],
+    "students": [
+        {
+            "username": "cemal.demir",
+            "name": "Cemal",
+            "surname": "Demir",
+            "email": "cemal.demir@example.com",
+            "department": 1
+        },
+        {
+            "username": "nese.budak",
+            "name": "Neşe",
+            "surname": "Budak",
+            "email": "nese.budak@example.com",
+            "department": 1
+        },
+        {
+            "username": "ahmet.cem",
+            "name": "Ahmet",
+            "surname": "Cem",
+            "email": "ahmet.cem@example.com",
+            "department": 2
+        },
+        {
+            "username": "selcen.gokalp",
+            "name": "Selcen",
+            "surname": "Gökalp",
+            "email": "selcen.gokalp@example.com",
+            "department": 2
+        },
+        {
+            "username": "ayse.pinar.caliskan",
+            "name": "Ayşe",
+            "surname": "Pınar",
+            "email": "ayse.pinar.caliskan@example.com",
+            "department": 3
+        },
+        {
+            "username": "servet.ardic",
+            "name": "Servet",
+            "surname": "Ardıç",
+            "email": "servet.ardic@example.com",
+            "department": 3
+        },
+        {
+            "username": "aliye.levent",
+            "name": "Aliye",
+            "surname": "Levent",
+            "email": "aliye.levent@example.com",
+            "department": 4
+        },
+        {
+            "username": "kamil.emet",
+            "name": "Kamil",
+            "surname": "emet",
+            "email": "kamil.emet@example.com",
+            "department": 4
+        },
+        {
+            "username": "ozan.satiroglu",
+            "name": "Ozan",
+            "surname": "Şatıroğlu",
+            "email": "ozan.satiroglu@example.com",
+            "department": 5
+        },
+        {
+            "username": "duriye.es",
+            "name": "Düriye",
+            "surname": "Es",
+            "email": "duriye.es@example.com",
+            "department": 5
+        }
+    ],
+    "sectionEnrollment": [
+        {
+            "section_id": 1,
+            "student_id": 1,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 2,
+            "student_id": 2,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 3,
+            "student_id": 3,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 4,
+            "student_id": 4,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 5,
+            "student_id": 5,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 6,
+            "student_id": 6,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 7,
+            "student_id": 7,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 8,
+            "student_id": 8,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 9,
+            "student_id": 9,
+            "is_enrolled": false
+        },
+        {
+            "section_id": 10,
+            "student_id": 10,
+            "is_enrolled": false
+        }
+    ]
+}
